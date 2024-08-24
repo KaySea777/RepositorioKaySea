@@ -6,7 +6,24 @@
 //
 // Scripts
 // 
+function copiarNumero() {
+  // Número de teléfono (reemplaza con tu número)
+  var numero = "56950923234";
 
+// Crear un elemento temporal de entrada
+var input = document.createElement("input");
+input.value = numero;
+
+// Agregar el elemento al documento y seleccionarlo
+document.body.appendChild(input);
+input.select();
+document.execCommand("copy");
+
+// Eliminar el elemento temporal
+document.body.removeChild(input);
+
+alert("¡Número copiado al portapapeles!");
+}
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
