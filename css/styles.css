@@ -10970,3 +10970,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.btn .btn-primary{
+  background-color: #d48a6e;
+  border-color: #d48a6e;
+}
